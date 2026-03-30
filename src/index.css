@@ -14,3 +14,38 @@
     padding-right: 15px;
     box-sizing: border-box;
 }
+
+/* status section */
+.status_content{
+    position: relative;
+}
+.status_content::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80px;
+    width: 2px;
+    background-color: rgba(256, 256, 256, 0.4);
+}
+
+.status_content:last-child::after{
+    display: none;
+}
+
+.title{
+    font-size: 48px;
+    color: #101727;
+    font-weight: 800;
+}
+
+
+
+
+/* responsive code for mobile device */
+@media (max-width: 991px){
+    .status_content::after{
+        display: none;
+    }
+}
