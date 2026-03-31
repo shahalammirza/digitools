@@ -14,7 +14,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <h2 className='text-center text-[36px] leading-[48px] lg:text-left lg:text-[72px] font-extrabold text-[#101727] lg:leading-[84px]'>Supercharge Your Digital Workflow</h2>
-                    <p className='text-center lg:text-left text-[18px] text-[#627382] mt-[16px]'>Access premium AI tools, design assets, templates, and productivity <br /> software—all in one place. Start creating faster today. <br /> Explore Products</p>
+                    <p className='text-center banner-P lg:text-left text-[18px] text-[#627382] mt-[16px]'>Access premium AI tools, design assets, templates, and productivity <br /> software—all in one place. Start creating faster today. <br /> Explore Products</p>
                     <div className='flex justify-center lg:justify-start gap-[16px] mt-[32px]'>
                         <button className='text-[16px] font-bold text-[#fff] p-[16px] rounded-full cursor-pointer bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:from-[#9514FA] hover:to-[#4F39F6]'>Explore Products</button>
                         <button className='flex gap-[10px] items-center p-[16px] rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-[16px] font-bold text-transparent border-[1px] border-[#4F39F6] cursor-pointer'> <Play className='text-[#4F39F6] text-[16px]'></Play> Watch Demo</button>

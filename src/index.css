@@ -40,12 +40,32 @@
     font-weight: 800;
 }
 
+.pricing_box{
+    position: relative;
+}
+
+.pricing_box .price_status{
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 
 
 /* responsive code for mobile device */
 @media (max-width: 991px){
+    .banner-P br{
+        display: none;
+    }
     .status_content::after{
         display: none;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .ready_content h2{
+        font-size: 30px;
     }
 }
