@@ -51,6 +51,35 @@
     transform: translateX(-50%);
 }
 
+.product_card{
+    position: relative;
+}
+
+.product_status{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nav_carts{
+    position: relative;
+    display: inline-block;
+}
+
+.nav_carts span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: #FF3980;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}
 
 
 
