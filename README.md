@@ -10,3 +10,5 @@ Technologies Used:  React.js,
 
 3 Features: 
             1. Dynamic product data loaded from a custom JSON file as a mock API
+            2. Add to Cart functionality for selection and managing products
+            3.Remove items from the cart with real time update
