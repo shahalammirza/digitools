@@ -17,7 +17,7 @@ const NavBar = ({carts}) => {
                 <li><a href="#" className='text-[#101727] font-semibold'>FAQ</a></li>
               </ul>
               <div className='flex gap-[16px] items-center'>
-                <a href="#" className='nav_carts'><ShoppingCart></ShoppingCart></a>
+                <a href="#" className='nav_carts'>{carts.length > 0 && <span >{carts.length}</span>}<ShoppingCart></ShoppingCart></a>
                 <a href="#" className='text-[16px] font-semibold text-[#101727]'>Login</a>
                 <button className='font-semibold text-[#fff] px-[16px] py-[12px] rounded-full cursor-pointer bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:from-[#9514FA] hover:to-[#4F39F6]'>Get Started</button>
               </div>
